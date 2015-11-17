@@ -7,10 +7,66 @@
 .meau ul li p{ font-size:18px;line-height: 24px; color:#4c4c4c; padding-top:10px}
 .meau ul li p a{ color:#4c4c4c;}
 
+.sxxManager{
+    width: 100%;
+}
+
+.sxxManager .manager{
+    width:1021px;
+    height: 420px;
+    margin:0 auto 70px;
+    position: relative;
+    overflow: hidden;
+}
+.sxxManager .manager .button{
+    width: 41px;
+    height: 64px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+}
+.sxxManager .manager .button.left{
+    background-image: url("../images/buttonLeft.png");
+    left: -70px;
+
+}
+.sxxManager .manager .button.right{
+    background-image: url("../images/buttonRight.png");
+    right: -70px;
+}
+
+
+.sxxManager .manager li{
+    width: 30%;
+    margin: auto 12px;
+    display: inline-block;
+    position: absolute;
+}
+
+.sxxManager .manager li:nth-of-type(1){
+    left: 0;
+}
+.sxxManager .manager li:nth-of-type(2){
+    left: 35%;
+}
+.sxxManager .manager li:nth-of-type(3){
+    left: 68%;
+}
+.sxxManager .manager li img{
+    width: 100%;
+}
+
+.sxxManager .manager li div{
+    width: 100%;
+    margin-top: 12px;
+    height: 240px;
+
+}
 .content{ width:1021px; margin:0 auto 70px;}
 .content h2{ font-size:45px;line-height: 52px; color:#333; text-align:center; margin-top:80px; margin-bottom:20px}
 .content h3{ font-size:22px;line-height: 32px; border-bottom:1px solid #f79420; color:#333}
-.content p{ font-size:18px;line-height: 28px; color:#666666; text-indent:2em}
+.content p{ font-size:18px;line-height: 28px; color:#666666;}
 .content span{ font-size:18px;line-height: 28px; color:#2a2a2a; text-align:center; display:block; padding:10px 0}
 
 .content1{  width:1021px; margin:0 auto;}
