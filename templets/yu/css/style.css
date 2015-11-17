@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ padding:0; margin:0}
+img{ border:0; }
+ul,ol{ list-style:none}
+a{ text-decoration:none ; color:#4c4c4c;}
+.clearfix:after {visibility: hidden;display: block;font-size: 0; content: " "; clear: both; height: 0;}
+.clearfix { display: inline-table; }
+
+html{
+	font-family: '宋体, sans-serif,Helvetica Neue',Helvetica,Arial,'Lantinghei SC','Hiragino Sans GB',STHeiti,'Noto Sans S Chinese','Microsoft Yahei','Microsoft Sans Serif','WenQuanYi Micro Hei',sans-serif !important;
+}
+/* Hides from IE7 - mac \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* End hide from IE7 - mac */
+.header{ width:1021px; margin:0 auto; padding-top:32px; padding-bottom:20px}
+.header .logo{ float:left}
+.header .search{ float:right; width:180px; height:24px; background:#ededed; margin-top:20px;}
+.header .search input.text{ width:127px; vertical-align:middle; height:24px; background:none; border:none; font-size:12px;line-height: 24px; outline:medium; padding-left:10px; color:#999}
+.header .search input.btn{ width:43px; height:24px; background:url(../images/43-24.jpg) left top no-repeat; border:none; vertical-align:middle}
+.header .tel{ float:right; margin-left:20px}
+.header .tel h4{ font-size:22px; line-height:32px; font-weight:normal; background:url(../images/46-46.png)5px 5px no-repeat; background-size:32px;padding-top:5px; padding-left:40px;}
+.header .tel p{ font-size:19px; line-height:32px; color:#d1ae5e;}
+
+.header .tel>#fptel{color:white;}
+
+.banner{ height:396px; overflow:hidden; background-size: 100%}
+
+.nav{ width:837px; height:41px; margin:10px auto 0;background-color: #cdac5b;opacity: .8; border-radius:5px; position:relative; z-index:5}
+.nav ul{ font-size:0; text-align:center;}
+.nav ul li{ width:107px; height:41px; margin:0 10px; position:relative; text-align:center; display:inline-block; *display:inline; zoom:1}
+.nav ul li a{ display:block; font-size:18px; line-height:41px;color:#fff}
+.nav ul li:hover{ background: #3c4150
+}
+.nav ul li dl{ position:absolute; top:41px; padding-top:3px; width:124px; left:-8px; display:none}
+.nav ul li dl dd{ width:100%;  height:41px; background:url(../images/3-2.png) left top repeat;}
+.nav ul li dl dd a{ color:#fff; font:16px/41px Microsoft Yahei !important;}
+.nav ul li dl dd:hover a{ color: #f60}
+.nav ul li:hover dl{ display:block}
+
+.contact{ width:1021px; margin:0 auto; border-top:1px solid #ccc; padding-top:10px; padding-bottom:10px}
+.contact .tel{ float:left; padding-right:60px; background:url(../images/2-36.jpg) right 20px no-repeat; margin-top:25px}
+.contact .tel h4{ font-size:22px; line-height:32px; color:#828282; font-weight:normal; background:url(../images/46-46.jpg) left top no-repeat; padding-top:5px; padding-left:40px;}
+.contact .tel p{ font-size:19px; line-height:32px; font-family: Arial, Helvetica, sans-serif; color:#c82b26;}
+.contact .wx{ height:130px; float:right; background:url(../images/130-130.jpg) right top no-repeat; padding-right:150px;}
+.contact .wx p{font-size: 16px;line-height: 18px; color:#333333; padding-top:40px}
+.contact .wx h4{ font-size:20px;line-height: 22px color:#333333}
+.contact .wx span{ font-size:13px;line-height: 18px; color:#333333}
+
+.footer{ height:63px; background:#000; text-align:center}
+.footer p{ font-size:12px;line-height: 63px; color:#333333}
+
+
+
+/*
+@font-face{
+	font-family: "sb321";
+	src:url("jiushizhe.otf") format("truetype");
+}*/

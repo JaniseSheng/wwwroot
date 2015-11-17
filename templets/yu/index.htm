@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset={dede:global.cfg_soft_lang/}" />
+<title>{dede:global.cfg_webname/}</title>
+<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/style.css" />
+<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/index.css" />
+<script src="{dede:global.cfg_templets_skin/}/js/jquery.js"></script>
+<script src="{dede:global.cfg_templets_skin/}/js/effect.js"></script>
+</head>
+
+<body>
+<!-- header -->
+{dede:include filename='head.htm'/}
+<!-- end -->
+
+<!-- bannernav -->
+<div class="index_banner">
+	{dede:include filename='heads.htm'/}
+    <ul class="pic">
+    {dede:arclist typeid='1' row='3'  channelid='1' orderby='id'}
+    	<li style=" background:url([field:picname/]) center top no-repeat"></li>
+    {/dede:arclist}
+        <!-- <li style=" background:url({dede:global.cfg_templets_skin/}/images/1440-523.jpg) center top no-repeat"></li>
+        <li style=" background:url({dede:global.cfg_templets_skin/}/images/1440-523.jpg) center top no-repeat"></li> -->
+    </ul>
+    <ul class="hd"></ul>
+</div><!-- end -->
+
+<!-- case -->
+<div class="case">
+	<ul>
+    {dede:arclist typeid='8' row='3' flag='c' addfields='stt'    channelid='1' orderby='id'}
+    	<li>
+        	<div class="pic"><a href="[field:arcurl/]">
+                <img width="122" height="64" src="[field:stt/]" />
+            </a></div>
+            <div class="txt">
+            	<h4><a href="[field:arcurl/]">· [field:title/]<span></span></a></h4>
+                <p>[field:description/]</p>
+            </div>
+        </li>
+    {/dede:arclist}
+        <!-- <li>
+            <div class="pic"><a href="javascript:;"><img src="{dede:global.cfg_templets_skin/}/images/122-64.jpg" /></a></div>
+            <div class="txt">
+                <h4><a href="javascript:;">· 成功案例<span></span></a></h4>
+                <p>与企业工成长，与产业共发展</p>
+            </div>
+        </li>
+        <li>
+            <div class="pic"><a href="javascript:;"><img src="{dede:field.picname/}" /></a></div>
+            <div class="txt">
+                <h4><a href="javascript:;">· 成功案例<span></span></a></h4>
+                <p>与企业工成长，与产业共发展</p>
+            </div>
+        </li> -->
+    </ul>
+</div><!-- end -->
+
+<!-- content -->
+<div class="news"><h3>行业新闻</h3></div>
+<div class="content clearfix">	
+	<div class="nfl">
+    {dede:arclist typeid='3' row='1' flag='a'  channelid='1' orderby='id'}
+    	<img width="365" height="155" src="[field:picname/]" />
+        <h4><a href="[field:arcurl/]">[field:title/]</a></h4>
+        <p>[field:description/]</p>
+        <a href="[field:arcurl/]" class="more"></a>
+        {/dede:arclist}
+    </div>
+    <div class="nfc">
+    	<ul>
+        {dede:arclist typeid='3' row='3' flag='h'  channelid='1' orderby='id'}
+        	<li>
+            	<div class="pic"><img width="63" height="63" src="[field:picname/]" /></div>
+                <div class="txt">
+                	<h4><a href="[field:arcurl/]">[field:title/]</a><span>[field:pubdate function=strftime('%Y-%m-%d',@me)/]</span></h4>
+                    <p>[field:description/]</p>
+                </div>
+            </li>
+            {/dede:arclist}
+            
+        </ul>
+    </div>
+    <div class="nfr">
+    	<img src="{dede:global.cfg_templets_skin/}/images/166-166.jpg" />
+        <p>微信扫一扫</p>
+        <h4>随时随地</h4>
+        <span>了解裕渤资讯</span>
+    </div>
+</div><!-- end -->
+<!-- footer -->
+{dede:include filename='footer.htm'/}
+<!--end-->
+</body>
+<script type="text/javascript">	
+	$(".index_banner").slide({ mainCell:".pic", titCell:".hd",effect:"fold", autoPlay:true,autoPage:true, delayTime:600, trigger:"mouseover"});
+	$(".case li:last").css({"margin-right":"0","padding-right":"0","border-right":"0"});
+	$(".nfc li:last").css({"margin-bottom":"0","padding-bottom":"0","border-bottom":"0"})
+</script>
+</html>

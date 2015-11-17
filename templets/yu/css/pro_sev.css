@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+.meau{ width:1021px; margin:0 auto; padding:75px 0 65px}
+.meau ul{ font-size:0; text-align:center}
+.meau ul li{ width:120px; text-align:center; display:inline-block; *display:inline; zoom:1; margin:0 50px;}
+.meau ul li p{ font-size:18px;line-height: 24px; color:#4c4c4c; padding-top:10px}
+
+.product_item{ width:1021px; margin:0 auto;}
+.product_item h3{ font-size:22px;line-height: 32px; border-bottom:1px solid #f79420; color:#333}
+.product_item p{ font-size:20px;line-height: 32px; color:#666666; padding:120px 0 90px; text-indent:2em}
+.product_item span{ display:block; text-align:right}
+.product_item span a.more{ width:117px; height:31px; display:inline-table; background:url(../images/117-31.png) left top no-repeat;}
+
+.product_ol{ margin-top:85px; margin-bottom:85px;}
+.content{ margin-top:120px;}
+.content .pic{ margin-left:40px; float:left}
+.content .pic img{ display:block}
+.content .txt{ float:right; width:315px;}
+.content .txt h2{ font-size:51px;line-height: 56px; color:#333; margin-bottom:30px}
+.content .txt p{ padding:0; font-size:18px;line-height: 32px; color:#666}
+.content .txt a{ display:block; width:124px; height:32px; background:url(../images/124-32.png) left top no-repeat; margin-top:15px}
+
+.trust{ height:572px; background:#c5c5c5}
+.inner_trust{ width:1021px; margin:0 auto; padding-top:110px;}
+.inner_trust .txt{ float:left; width:315px;}
+.inner_trust .txt h2{ font-size:51px;line-height: 56px; color:#333; margin-bottom:30px}
+.inner_trust .txt p{ padding:0; font-size:18px;line-height: 32px; color:#666}
+.inner_trust .txt a{ display:block; width:124px; height:32px; background:url(../images/124-32.png) left top no-repeat; margin-top:15px}
+.inner_trust .pic{ margin-left:40px; float:right; margin-right:40px}

@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset={dede:global.cfg_soft_lang/}" />
+<title>{dede:field name='title'/}_{dede:global name='cfg_webname'/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}"/>
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}"/>
+<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/style.css" />
+<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/contact.css" />
+</head>
+
+<body>
+<!-- header -->
+{dede:include filename='head.htm'/}
+<!-- end -->
+
+<!-- bannernav -->
+<div class="banner" style="background:url({dede:global.cfg_templets_skin/}/images/lx.jpg) center top no-repeat;">
+	{dede:include filename='heads.htm'/}
+</div><!-- end -->
+
+<!-- contact-->
+<div class="contentwarp">
+	
+
+	<div class="content clearfix">
+	<h3>联系我们</h3>
+    	{dede:field.content/}
+    </div>
+</div><!-- end -->
+
+<!-- footer -->
+{dede:include filename='footer.htm'/}
+<!--end-->
+</body>
+</html>

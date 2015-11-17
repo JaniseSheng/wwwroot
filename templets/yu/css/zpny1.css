@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+.banner{ height:393px; overflow:hidden; position:relative}
+.join{ height:205px; background:#c5c5c5; font:40px/205px Microsoft Yahei; text-align:center; color:#333}
+
+.content{ width:1021px; margin:0 auto; padding:30px 0 150px;}
+.content h3{ font:22px/38px Microsoft Yahei; color:#333; border-bottom:1px solid #e0760f}
+.content1{ border:1px solid #e0760f; margin-top:26px; padding:16px; border-radius:5px;}
+.content1 table{ width:100%; border-collapse:collapse;}
+.content1 table th{ border-bottom:1px solid #ddd; font:16px/32px Microsoft Yahei; color:#404040}
+.content1 table td{ font:14px/36px Microsoft Yahei; color:#404040; text-align:center}
+
+/* .page{ font-size:0; text-align:right; margin-top:35px;}
+.page a{ display:inline-block; width:24px; height:24px; *display:inline; text-align:center; zoom:1; font:12px/24px Microsoft Yahei; color:#999999; border:1px solid #ccc; margin:0 3px; }
+.page a.cur{ border-color:#999; color:#666} */
+
+
+.page{ font-size:0; text-align:right; margin-top:35px;}
+/* .page{ margin:30px 0; font-size:0; text-align:center} */
+ .page li{ list-style: none; position: relative; width: auto !important; height: auto !important; 
+ margin: 0 5px; cursor: pointer; display: inline-block; 
+ display:inline-block; font-size:12px;line-height: 28px;
+ border:1px solid #ccc;  color:#a4a4a4 }
+ .page li a{ font-size:12px;line-height: 28px;
+  color:#a4a4a4; display: block; padding: 0 15px}
+ .page li.thisclass{ background:#666; color:#fff;
+ border-color:#666; padding: 0 15px } 
+ .page li span.pageinfo{ position: absolute; width: 200px; display: block;}
+

@@ -1,0 +1,4 @@
+INSERT INTO `yu_search_keywords` VALUES('1','长旭1号','长旭1号 1号 长旭','1','1','1434524940','0','0');
+INSERT INTO `yu_search_keywords` VALUES('2','产品搜索','产品搜索 产品 搜索','1','0','1434527474','0','0');
+INSERT INTO `yu_search_keywords` VALUES('3','111','111','2','0','1435302075','0','0');
+INSERT INTO `yu_search_keywords` VALUES('4','产品','产品','1','0','1435034690','0','0');

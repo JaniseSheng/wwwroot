@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset={dede:global.cfg_soft_lang/}" />
+<title>{dede:field name='title'/}_{dede:global name='cfg_webname'/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}"/>
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}"/>
+<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/style.css" />
+<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/pro_sev.css" />
+</head>
+
+<body>
+<!-- header -->
+{dede:include filename='head.htm'/}
+<!-- end -->
+
+<!-- bannernav -->
+<div class="banner" style="background:url({dede:global.cfg_templets_skin/}/images/cp.jpg) center top no-repeat;">
+	{dede:include filename='heads.htm'/}
+</div><!-- end -->
+
+
+
+<!-- onlineprodcut -->
+<div class="product_ol product_item">
+	<h3>
+		在线产品</h3>
+</div>
+<!-- end -->
+<!-- onlineprodcut -->
+{dede:arclist   row='100'  channelid='1'}
+	<div class="product_ol product_item">
+	<div class="content clearfix">
+		<div class="pic">
+			<img  src="[field:picname/]" style="width: 520px; height: 328px;" />
+		</div>
+		<div class="txt">
+			<h2>[field:title/]</h2>
+			<p>[field:description/]</p>
+			<a href="[field:arcurl/]"><img alt="" src="/uploads/150617/1-15061G34531961.png" style="width: 124px; height: 32px;" /></a>
+		</div>
+	</div>
+	</div>
+{/dede:arclist}
+<!-- end -->
+
+
+
+
+
+
+<!-- 
+{dede:field.con tent/} -->
+
+
+<!-- footer -->
+{dede:include filename='footer.htm'/}
+<!--end-->
+</body>
+</html>

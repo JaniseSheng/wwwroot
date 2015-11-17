@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset={dede:global.cfg_soft_lang/}" />
+<title>{dede:field name='title'/}_{dede:global name='cfg_webname'/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}"/>
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}"/>
+
+<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/style.css" />
+<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/zp1.css" />
+<script src="{dede:global.cfg_templets_skin/}/js/jquery.js"></script>
+</head>
+
+<body>
+<!-- header -->
+{dede:include filename='head.htm'/}
+<!-- end -->
+
+<!-- bannernav -->
+<div class="banner" style="background:url({dede:global.cfg_templets_skin/}/images/rc.jpg) center top no-repeat;">
+	{dede:include filename='heads.htm'/}
+</div>
+<div class="join">我们期待您的加入，用真实的能量产生影响。</div>
+<!-- end -->
+
+<!--content-->
+<div class="content clearfix">
+	<div class="recommend">
+        <h4>目前我们提供的职位如下：</h4>
+        <p>发送简历至<span>service@richbloom.cn</span>（表明职位名称）</p>
+    </div>
+    <div class="zp_item">
+    	<div class="zp_fl">
+        	<h3><span>社会职位</span>{dede:type typeid="12"}<a href="[field:typelink/]">更多...</a>{/dede:type}</h3>
+            <ul>
+            {dede:arclist typeid='12' row='5' flag='c' addfields='zhiwei,didian' channelid='1' orderby='id'}
+            	<li><a href="[field:arcurl/]">[field:zhiwei/]</a><span>[field:didian/]</span></li>
+            {/dede:arclist}
+               <!--  <li><a href="javascript:;">财富中心总监/团队经理</a><span>上海</span></li>
+               <li><a href="javascript:;">财富中心总监/团队经理</a><span>上海</span></li>
+               <li><a href="javascript:;">财富中心总监/团队经理</a><span>上海</span></li>
+               <li><a href="javascript:;">财富中心总监/团队经理</a><span>上海</span></li> -->
+            </ul>
+        </div>
+        <div class="zp_fr">
+        	<h3><span>实习生职位</span>{dede:type typeid="13"}<a href="[field:typelink/]">更多...</a>{/dede:type}</h3>
+            <ul>
+            {dede:arclist typeid='13' row='5' flag='c' addfields='zhiwei,didian' channelid='1' orderby='id'}
+                <li><a href="[field:arcurl/]">[field:zhiwei/]</a><span>[field:didian/]</span></li>
+            {/dede:arclist}
+            	<!-- <li><a href="javascript:;">理财专员（应届生）</a><span>上海</span></li> -->
+            </ul>
+        </div>
+    </div>
+    <div class="zp3">
+    	<h3><span>最新职位</span>{dede:type typeid="6"}<a href="[field:typelink/]">更多...</a>{/dede:type}</h3>
+        <table cellpadding="0" cellspacing="0">
+        <tr>
+                <th width="40%">职位名称</th>
+                <th width="15%">公司/部门</th>
+                <th width="15%">招聘人数</th>
+                <th width="15%">工作地点</th>
+                <th width="15%">发布时间</th>
+            </tr>
+            
+
+        {dede:arclist typeid='6' row='6'  addfields='zhiwei,gongsi,renshu,didian' channelid='1' orderby='pubdate'}
+        	<tr>
+            	<td><a href="[field:arcurl/]">[field:zhiwei/]</a></td>
+                <td>[field:gongsi/]</td>
+                <td>[field:renshu/]</td>
+                <td>[field:didian/]</td>
+                <td> [field:pubdate function=strftime('%Y-%m-%d',@me)/]</td>
+            </tr>
+             {/dede:arclist}
+                        
+        </table>
+    </div>
+</div><!-- end -->
+
+<!-- footer -->
+{dede:include filename='footer.htm'/}
+<!--end-->
+</body>
+<script>
+	$(".zp3 th:first").css("text-align","left");
+	$(".zp3 td:first-child").css("text-align","left");
+</script>
+</html>

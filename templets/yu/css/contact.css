@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+.contentwarp{ background:url(../images/1440-453.jpg) center top no-repeat; height:453px; overflow:hidden}
+.contentwarp  h3{ font-size:22px;line-height: 32px; color:#333333; border-bottom:1px solid #f79420; overflow:hidden; margin-bottom:30px}
+
+/* .contentwarp h2{ font: 24px/36px sb321; color: #333; text-align: center; padding: 30px 0}
+ */.content{ width:1021px; margin:0 auto; padding-top:0px;}
+.content .map{ width:526px; height:305px; float:left}
+.content .add{ width:453px; float:right}
+.content .add p{ font-size:22px;line-height: 30px; color:#666666}

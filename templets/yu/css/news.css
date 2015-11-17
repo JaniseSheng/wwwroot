@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+.news{ width:1021px; margin:0 auto; padding-top:50px}
+.news h3{ font-size:22px;line-height: 32px; border-bottom:1px solid #f79420; color:#333}
+.focus{ margin-top:30px; width:1021px; overflow:hidden}
+.focus .cont{ height:348px;}
+.focus .cont li{ height:348px;}
+.focus .cont li .pic{ width:537px; float:left}
+.focus .cont li .txt{ width:435px; float:right}
+.focus .cont li .txt h4{ font-size:20px;line-height: 28px; color:#2a2a2a; margin-bottom:5px}
+.focus .cont li .txt p{ font-size:16px;line-height: 28px; color:#2a2a2a;}
+.focus .cont li .txt a.more{ background:url(../images/117-31.png) left top no-repeat; width:117px; height:31px; display:block; margin-top:15px}
+.focus .hd{ text-align:center; font-size:0; margin:20px 0; overflow:hidden}
+.focus .hd li{ width:10px; height:10px; background:#5f5f5f; display:inline-block; *display:inline; zoom:1; margin:0 5px; border-radius:100%; cursor:pointer; }
+.focus .hd li.on{ background:#bababa; height:12px; width:12px; border:none}
+
+.newspic{ width:1021px; margin:0 auto; padding:120px 0 40px;}
+.newspic li{ width:313px; height:414px; box-shadow:0px 2px 5px #ccc; margin-right:40px; float:left; margin-bottom:40px}
+.newspic li .pic{ width:313px; height:201px;}
+.newspic li .pic img{ display:block; width:313px; height:201px;}
+.newspic li .txt{ margin-top:15px; padding:0 25px; text-align:center}
+.newspic li .txt h4{ font-size:15px;line-height: 25px; color:#ffa300}
+.newspic li .txt p{ font-size:13px;line-height: 25px; color:#666; margin:10px 0}
+.newspic li .txt a.more{ background:url(../images/117-31.png) left top no-repeat; width:117px; height:31px; display:inline-block}
+
+/* .page{ font-size:0; text-align:center}
+.page a{ width:31px; height:31px; display:inline-block; border:1px solid #eee; margin:0 3px; vertical-align:middle; font:16px/31px Arial, Helvetica, sans-serif; color:#3b3b3b}
+.page li{width: auto !important; height: auto !important; }
+.page li a { width:31px; height:31px; display:inline-block; border:1px solid #eee; margin:0 3px; vertical-align:middle; font:16px/31px Arial, Helvetica, sans-serif; color:#3b3b3b}
+
+.page a.prev,.page a.next{ font:18px/31px "新宋体", "宋体", "仿宋"; color:#999}
+.page a.cur{ border-color:#666} */
+
+
+.page{ margin:30px 0; font-size:0; text-align:center}
+ .page li{ list-style: none; position: relative; width: auto !important; height: auto !important; 
+ margin: 0 5px; cursor: pointer; display: inline-block; 
+ display:inline-block; font-size:12px;line-height: 28px;
+ border:1px solid #ccc;  color:#a4a4a4 }
+ .page li a{ font-size:12px;line-height: 28px;
+  color:#a4a4a4; display: block; padding: 0 15px}
+ .page li.thisclass{ background:#666; color:#fff;
+ border-color:#666; padding: 0 15px } 
+ .page li span.pageinfo{ position: absolute; width: 200px; display: block;}

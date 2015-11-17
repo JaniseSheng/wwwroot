@@ -1,0 +1,1 @@
+INSERT INTO `yu_admin` VALUES('1','10','esihui','e5f1418e6ecff3f2d70d','admin','','','0','1436930463','180.165.148.224');

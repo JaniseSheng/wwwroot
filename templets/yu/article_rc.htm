@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset={dede:global.cfg_soft_lang/}" />
+<title>{dede:field name='title'/}_{dede:global name='cfg_webname'/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}"/>
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}"/>
+<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/style.css" />
+<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/zpny.css" />
+</head>
+
+<body>
+<!-- header -->
+{dede:include filename='head.htm'/}
+<!-- end -->
+
+<!-- bannernav -->
+<div class="banner" style="background:url({dede:global.cfg_templets_skin/}/images/rc.jpg) center top no-repeat;">
+	{dede:include filename='heads.htm'/}
+    
+</div>
+<div class="join">我们期待您的加入，用真实的能量产生影响。</div><!-- end -->
+
+<!--content-->
+<div class="content clearfix">
+	<div class="recommend">
+        <h4>目前我们提供的职位如下：</h4>
+        <p>发送简历至<span>service@richbloom.cn</span>（表明职位名称）</p>
+    </div>
+    <div class="txt">
+        <h3><a href="javascript:;">{dede:field.title/}</a></h3>
+        <h4>岗位职责</h4>
+        {dede:field.body/}
+   </div>
+</div><!-- end -->
+
+<!-- footer -->
+{dede:include filename='footer.htm'/}
+<!--end-->
+</body>
+</html>

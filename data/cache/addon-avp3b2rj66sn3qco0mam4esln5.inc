@@ -1,0 +1,21 @@
+<?php
+$myaddons = array();
+$maNum = 0;
+$myaddons[$maNum] = array('7', '/yubo/uploads/150616/1-1506161F42GB.png');
+$maNum = 1;
+$myaddons[$maNum] = array('8', '/yubo/uploads/150616/1-1506161F44H94.png');
+$maNum = 2;
+$myaddons[$maNum] = array('9', '/yubo/uploads/150616/1-1506161F50LP.png');
+$maNum = 3;
+$myaddons[$maNum] = array('10', '/yubo/uploads/150616/1-1506161F544253.jpg');
+$maNum = 4;
+$myaddons[$maNum] = array('11', '/yubo/uploads/150616/1-1506161F605C9.jpg');
+$maNum = 5;
+$myaddons[$maNum] = array('12', '/yubo/uploads/150616/1-1506161F64E58.jpg');
+$maNum = 6;
+$myaddons[$maNum] = array('13', '/yubo/uploads/150616/1-1506161FF4458.jpg');
+$maNum = 7;
+$myaddons[$maNum] = array('14', '/yubo/uploads/150616/1-1506161FH4637.png');
+$maNum = 8;
+$myaddons[$maNum] = array('15', '/yubo/uploads/150616/1-1506161FJ2X4.jpg');
+$maNum = 9;

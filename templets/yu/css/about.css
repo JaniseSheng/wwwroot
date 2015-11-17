@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+.meau{ width:1021px; margin:0 auto; padding:75px 0 65px}
+.meau ul{ font-size:0; text-align:center}
+.meau ul li{ width:120px; text-align:center; display:inline-block; *display:inline; zoom:1; margin:0 50px;}
+.meau ul li p{ font-size:18px;line-height: 24px; color:#4c4c4c; padding-top:10px}
+.meau ul li p a{ color:#4c4c4c;}
+
+.content{ width:1021px; margin:0 auto 70px;}
+.content h2{ font-size:45px;line-height: 52px; color:#333; text-align:center; margin-top:80px; margin-bottom:20px}
+.content h3{ font-size:22px;line-height: 32px; border-bottom:1px solid #f79420; color:#333}
+.content p{ font-size:18px;line-height: 28px; color:#666666; text-indent:2em}
+.content span{ font-size:18px;line-height: 28px; color:#2a2a2a; text-align:center; display:block; padding:10px 0}
+
+.content1{  width:1021px; margin:0 auto;}
+.content1 h3{ font-size:22px;line-height: 32px; border-bottom:1px solid #f79420; color:#333; margin-bottom:60px}
+.content1 .pic{ margin-left:0; float:left}
+.content1 .pic img{ display:block}
+.content1 .pic p{ font-size:20px;line-height: 24px; text-align:right; padding-top:15px}
+.content1 .txt{ float:right; width:605px;}
+.content1 .txt p{ padding:0; font-size:18px;line-height: 32px; color:#666}
+
+.ry{ height:462px; background:#f0f0f0; margin-bottom:40px; display:none}
+.focus{ width:999px; margin:0 auto; position:relative; padding-top:60px; padding-left:22px; display:none}
+.focus ul li{ width:286px; margin:0 22px;}
+.focus ul li img{ display:block; width:286px; height:321px;}
+.focus ul li p{ font-size:16px;line-height:16px; padding-top:10px; color:#333}
+.focus a.prev,.focus a.next{ position:absolute; top:200px; width:41px; height:64px; background:url(../images/41-64.png) left top no-repeat; display:block; left:-32px;}
+.focus a.next{ left:auto; right:-44px; background:url(../images/41-64-1.png) left top no-repeat;}
+
+.focus1{ width:999px; margin:0 auto; position:relative; padding-top:40px; padding-left:22px; display:none}
+.focus1 ul li{ width:286px; margin:0 22px;}
+.focus1 ul li img{ display:block; width:286px; height:216px;}
+.focus1 ul li h4{ font-size:16px;line-height:32px; color:#2a2a2a; padding-top:10px}
+.focus1 ul li p{ font-size:14px;line-height:20px; padding-top:10px; color:#333}
+.focus1 a.prev,.focus1 a.next{ position:absolute; top:200px; width:41px; height:64px; background:url(../images/41-64.png) left top no-repeat; display:block; left:-32px;}
+.focus1 a.next{ left:auto; right:-44px; background:url(../images/41-64-1.png) left top no-repeat;}
+
+.focus2{ width:999px; margin:0 auto; position:relative; padding-top:40px; padding-left:22px; display:none}
+.focus2 ul li{ width:286px; margin:0 22px;}
+.focus2 ul li img{ display:block; width:286px; height:216px;}
+.focus2 ul li h4{ font-size:16px;line-height:32px; color:#2a2a2a; padding-top:10px}
+.focus2 ul li p{ font-size:14px;line-height:20px; padding-top:10px; color:#333}
+.focus2 a.prev,.focus2 a.next{ position:absolute; top:200px; width:41px; height:64px; background:url(../images/41-64.png) left top no-repeat; display:block; left:-32px;}
+.focus2 a.next{ left:auto; right:-44px; background:url(../images/41-64-1.png) left top no-repeat;}
+
+.kh{ width:1021px; margin:0 auto; text-align:center; padding-top:70px; display:none}

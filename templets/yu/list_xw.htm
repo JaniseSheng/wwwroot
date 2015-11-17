@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset={dede:global.cfg_soft_lang/}" />
+<title>{dede:field name='title'/}_{dede:global name='cfg_webname'/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}"/>
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}"/>
+<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/style.css" />
+<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/news.css" />
+<script src="{dede:global.cfg_templets_skin/}/js/jquery.js"></script>
+<script src="{dede:global.cfg_templets_skin/}/js/effect.js"></script>
+</head>
+
+<body>
+<!-- header -->
+{dede:include filename='head.htm'/}
+<!-- end -->
+
+<!-- bannernav -->
+<div class="banner" style="background:url({dede:global.cfg_templets_skin/}/images/xw.jpg) center top no-repeat;">
+	{dede:include filename='heads.htm'/}
+</div><!-- end -->
+
+<!--news-->
+<div class="news">
+	<h3>公司新闻</h3>
+    <div class="focus">
+    	<ul class="cont">
+        {dede:arclist typeid='3' row='3' flag='c' addfields='zhize' channelid='1' orderby='id'}
+        	<li>
+            	<div class="pic"><a href="[field:arcurl/]">
+                <img width="537" height="348" src="[field:picname/]" /></a></div>
+                <div class="txt">
+                	<h4>[field:title/]</h4>
+                    [field:zhize/]
+                    <a href="[field:arcurl/]" class="more"></a>
+                </div>
+            </li>
+        {/dede:arclist}
+          
+          
+        </ul>
+        <ul class="hd"></ul>
+    </div>
+</div><!-- end -->
+
+<!-- newspic -->
+<div class="newspic clearfix">
+	<ul>
+    {dede:list   row='100' pagesize='6' channelid='1'}
+    	<li>
+        	<div class="pic"><a href="[field:arcurl/]">
+            <img width="313" height="201" src="[field:picname/]" /></a></div>
+            <div class="txt">
+            	<h4>[field:title/]</h4>
+                <p>[field:description/]</p>
+                <a href="[field:arcurl/]" class="more"></a>
+            </div>
+        </li>
+    {/dede:list}
+        
+    </ul>
+    <div class="page">
+    {dede:pagelist  listitem='pre,pageno,next' listsize="5"/}
+    	<!-- <a href="javascript:;" class="prev"><</a>
+                <a href="javascript:;" class="cur">1</a>
+                <a href="javascript:;">2</a>
+                <a href="javascript:;">3</a>
+                <a href="javascript:;" class="next">></a> -->
+    </div>
+</div><!-- end -->
+
+
+<!-- footer -->
+{dede:include filename='footer.htm'/}
+<!--end-->
+</body>
+<script type="text/javascript">	
+	$(".focus").slide({ mainCell:".cont", titCell:".hd",effect:"fold", autoPlay:true,autoPage:true, delayTime:600, trigger:"mouseover"});
+	$(".newspic li:nth-child(3n)").css("margin-right","0")
+</script>
+</html>

@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+.content{ width:1021px; margin:40px auto}
+.content h3{ font:22px/32px Microsoft Yahei; color:#333333; border-bottom:1px solid #f79420; overflow:hidden; margin-bottom:30px}
+.jieshao{ overflow:hidden}
+.jieshao .pic{ width:439px; padding:4px; background:#dfdfdf; float:left; text-align:right}
+.jieshao .pic p{ font:18px/23px Microsoft Yahei; color:#333; padding:10px 10px 10px 0}
+.jieshao .txt{ width:524px; float:right}
+.jieshao .txt h4{ font:18px/23px Microsoft Yahei; color:#333; margin-bottom:10px}
+.jieshao .txt p{ font:14px/23px Microsoft Yahei; color:#333}

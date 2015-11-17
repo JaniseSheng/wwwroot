@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+.banner{ height:393px; overflow:hidden; position:relative}
+.join{ height:205px; background:#c5c5c5; width:100%;  font-size:40px;line-height: 205px; text-align:center; color:#333}
+
+.content{ width:1021px; margin:0 auto; padding:30px 0}
+.content .recommend h4{ font-size:22px;line-height: 26px; color:#404040}
+.content .recommend p{ font-size:18px;line-height: 24px; color:#333}
+.content .recommend p span{ color:#f79420}
+.content ul{ overflow:hidden; margin-top:20px;}
+.content ul li{ width:306px; float:left; border-top:1px solid #f79420; padding-top:35px; margin-right:40px; margin-bottom:40px}
+.content ul li h3{ font-size:20px;line-height: 24px; margin-bottom:5px;}
+.content ul li h3 a{ color:#404040}
+.content ul li h4{ font-size:16px;line-height: 21px; color:#404040}
+.content ul li p{ font-size:12px;line-height: 19px; color:#404040}

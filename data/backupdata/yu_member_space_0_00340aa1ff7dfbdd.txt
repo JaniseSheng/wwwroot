@@ -1,0 +1,1 @@
+INSERT INTO `yu_member_space` VALUES('1','10','0','esihui的空间','','person','','');

@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset={dede:global.cfg_soft_lang/}" />
+<title>{dede:field name='title'/}_{dede:global name='cfg_webname'/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}"/>
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}"/>
+<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/style.css" />
+<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/zpny1.css" />
+<script src="{dede:global.cfg_templets_skin/}/js/jquery.js"></script>
+</head>
+
+<body>
+<!-- header -->
+{dede:include filename='head.htm'/}
+<!-- end -->
+
+<!-- bannernav -->
+<div class="banner" style="background:url({dede:global.cfg_templets_skin/}/images/rc.jpg) center top no-repeat;">
+	{dede:include filename='heads.htm'/}
+</div>
+<div class="join">我们期待您的加入，用真实的能量产生影响。</div>
+<!-- end -->
+
+<!-- content-->
+<div class="content">
+	<h3>{dede:field name='position'/}</h3>
+    <div class="content1">
+    	<table cellpadding="0" cellspacing="0">
+        	<tr>
+            	<th width="40%">职位名称</th>
+                <th width="15%">公司/部门</th>
+                <th width="15%">招聘人数</th>
+                <th width="15%">工作地点</th>
+                <th width="15%">发布时间</th>
+            </tr>
+
+            {dede:list   row='100' pagesize='4' channelid='1'}
+            <tr>
+            	<td><a href="[field:arcurl/]">[field:zhiwei/]</a></td>
+                <td>[field:gongsi/]</td>
+                <td>[field:renshu/]</td>
+                <td>[field:didian/]</td>
+                <td> [field:pubdate function=strftime('%Y-%m-%d',@me)/]</td>
+            </tr>
+            {/dede:list}
+        </table>        
+    </div>
+    <div class="page">
+        {dede:pagelist  listitem='index,pre,pageno,next,end' listsize="5"/}
+        <!-- <a href="javascript:;" class="prev"><</a>
+        <a href="javascript:;" class="cur">1</a>
+        <a href="javascript:;">2</a>
+        <a href="javascript:;">3</a>
+        <a href="javascript:;" class="next">></a> -->
+    </div>
+</div><!--end-->
+
+<!-- footer -->
+{dede:include filename='footer.htm'/}
+<!--end-->
+</body>
+<script>
+	$(".content1 th:first").css("text-align","left");
+	$(".content1 td:first-child").css("text-align","left");
+</script>
+</html>
