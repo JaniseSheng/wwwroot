@@ -63,11 +63,97 @@
     height: 240px;
 
 }
-.content{ width:1021px; margin:0 auto 70px;}
-.content h2{ font-size:45px;line-height: 52px; color:#333; text-align:center; margin-top:80px; margin-bottom:20px}
+.content{ width:1021px; margin:0 auto 12px;}
+/*.content h2{ font-size:45px;line-height: 52px; color:#333; text-align:center; margin-top:80px; margin-bottom:20px}
 .content h3{ font-size:22px;line-height: 32px; border-bottom:1px solid #f79420; color:#333}
 .content p{ font-size:18px;line-height: 28px; color:#666666;}
-.content span{ font-size:18px;line-height: 28px; color:#2a2a2a; text-align:center; display:block; padding:10px 0}
+.content span{ font-size:18px;line-height: 28px; color:#2a2a2a; text-align:center; display:block; padding:10px 0}*/
+
+.content .row_col p{
+    width: 100%;
+    color: white;
+    text-align: justify;
+    text-indent:2em;
+}
+
+.content .row_col p.left{
+    float: left;
+}
+
+.content .row_col p.right{
+    float: right;
+}
+
+.content .row_col h2{
+    color: #d1ae5e;
+    font-size: 42px;
+    margin-bottom: 12px;
+}
+
+
+
+.content .row_col{
+    position: relative;
+    border-top:1px #FFB100 solid;
+    border-bottom: 1px #FFB100 solid;
+    padding: 24px 48px 24px 48px;
+}
+.content .row_col:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.content .row_col .mm{
+    position: absolute;
+    top: 24px;
+}
+.content .row_col .mm.l{
+    left: 0;
+}
+.content .row_col .mm.r{
+    right: 0;
+}
+
+.content .row_col .img{
+    overflow: hidden;
+    width: 360px;
+    height: 220px;
+    float: left;
+}
+.content .row_col .img.left{
+    float: left;
+}
+
+.content .row_col .img.right{
+    float: right;
+}
+
+.content .row_col .img img{
+    width: 100%;
+    height: 100%;
+}
+
+.content .row_col .text{
+    overflow: hidden;
+    width: 460px;
+    height: 220px;
+    float: right;
+}
+
+.content .row_col .text.left{
+    float: left;
+}
+
+.content .row_col .text.right{
+    float: right;
+}
+
+.content .row_col .text img{
+    float: right;
+    width: 70%;
+    margin-bottom: 36px;
+}
 
 .content1{  width:1021px; margin:0 auto;}
 .content1 h3{ font-size:22px;line-height: 32px; border-bottom:1px solid #f79420; color:#333; margin-bottom:60px}
@@ -77,7 +163,7 @@
 .content1 .txt{ float:right; width:605px;}
 .content1 .txt p{ padding:0; font-size:18px;line-height: 32px; color:#666}
 
-.ry{ height:462px; background:#f0f0f0; margin-bottom:40px; display:none}
+.ry{ height:520px; background: #394156; margin-bottom:40px; display:block;overflow: hidden}
 .focus{ width:999px; margin:0 auto; position:relative; padding-top:60px; padding-left:22px; display:none}
 .focus ul li{ width:286px; margin:0 22px;}
 .focus ul li img{ display:block; width:286px; height:321px;}
@@ -85,11 +171,17 @@
 .focus a.prev,.focus a.next{ position:absolute; top:200px; width:41px; height:64px; background:url(../images/41-64.png) left top no-repeat; display:block; left:-32px;}
 .focus a.next{ left:auto; right:-44px; background:url(../images/41-64-1.png) left top no-repeat;}
 
-.focus1{ width:999px; margin:0 auto; position:relative; padding-top:40px; padding-left:22px; display:none}
+.focus1{ width:999px; margin:0 auto; position:relative; padding-top:40px; padding-left:22px; display:block}
 .focus1 ul li{ width:286px; margin:0 22px;}
 .focus1 ul li img{ display:block; width:286px; height:216px;}
-.focus1 ul li h4{ font-size:16px;line-height:32px; color:#2a2a2a; padding-top:10px}
-.focus1 ul li p{ font-size:14px;line-height:20px; padding-top:10px; color:#333}
+.focus1 ul li h4{ font-size:16px;line-height:32px; color:#d1ae5e; padding-top:10px}
+.focus1 ul li h4 a{
+    color:#d1ae5e;
+}
+.focus1 ul li p{ font-size:14px;line-height:20px; padding-top:10px; color:white}
+.focus1 ul li p a{
+    color:white;
+}
 .focus1 a.prev,.focus1 a.next{ position:absolute; top:200px; width:41px; height:64px; background:url(../images/41-64.png) left top no-repeat; display:block; left:-32px;}
 .focus1 a.next{ left:auto; right:-44px; background:url(../images/41-64-1.png) left top no-repeat;}
 
@@ -101,4 +193,4 @@
 .focus2 a.prev,.focus2 a.next{ position:absolute; top:200px; width:41px; height:64px; background:url(../images/41-64.png) left top no-repeat; display:block; left:-32px;}
 .focus2 a.next{ left:auto; right:-44px; background:url(../images/41-64-1.png) left top no-repeat;}
 
-.kh{ width:1021px; margin:0 auto; text-align:center; padding-top:70px; display:none}
+.kh{ width:1021px; height: 100%;margin:0 auto; text-align:center; display:none}
