@@ -2,7 +2,7 @@
 /* CSS Document */
 
 .content{ width:1021px; margin:40px auto}
-.content h3{ font:22px/32px Microsoft Yahei; color:#333333; border-bottom:1px solid #f79420; overflow:hidden; margin-bottom:30px}
+.content h3{ font:22px/32px Microsoft Yahei; color:white; border-bottom:1px solid #f79420; overflow:hidden; margin-bottom:30px}
 .content ul{ width:633px; margin:0 auto}
 .content li.d1,.content li.d2{ height:100px; overflow:hidden;}
 .content li.d1{ background:url(../images/631100.png) left top no-repeat}
