@@ -2,31 +2,31 @@
 /* CSS Document */
 
 .banner{ height:393px; overflow:hidden; position:relative}
-.join{ height:205px; background:#c5c5c5; font:40px/205px Microsoft Yahei; text-align:center; color:#333}
+.join{border-top: 3px solid #d1ae5e; height:205px; background: #394156; font-size:40px;line-height: 205px; text-align:center; color:#d1ae5e}
 
 .content{ width:1021px; margin:0 auto; padding:30px 0 120px;}
-.content .recommend h4{ font:22px/26px Microsoft Yahei; color:#404040}
-.content .recommend p{ font:18px/24px Microsoft Yahei; color:#333}
-.content .recommend p span{ color:#f79420}
+.content .recommend h4{ font-size:22px;line-height:26px; color:#d1ae5e}
+.content .recommend p{ font-size:18px;line-height:24px; color:white}
+.content .recommend p span{ color:#d1ae5e}
 
 .zp_item{ overflow:hidden; margin-top:20px;}
 .zp_fl{ width:475px; height:193px; border:1px solid #e0760f; padding:13px; border-radius:8px; float:left}
 .zp_fr{  width:475px; height:193px; border:1px solid #e0760f; padding:13px; border-radius:8px; float:right}
 .zp_item h3{ overflow:hidden; background:url(../images/4581.png) center bottom no-repeat;}
-.zp_item h3 span{ font:18px/32px Microsoft Yahei; float:left; color:#e0760f}
-.zp_item h3 a{ font:16px/32px Microsoft Yahei; color:#e0760f; float:right}
+.zp_item h3 span{ font-size:18px;line-height: 32px; float:left; color:#d1ae5e}
+.zp_item h3 a{ font-size:16px;line-height: 32px; color:#d1ae5e; float:right}
 .zp_item ul{ overflow:hidden; margin-top:10px;}
-.zp_item li{ overflow:hidden; font:14px/30px Microsoft Yahei; color:#898989}
-.zp_item li a{ float:left; color:#898989}
+.zp_item li{ overflow:hidden; font-size:14px;line-height: 30px; color:white}
+.zp_item li a{ float:left; color:white}
 .zp_item li span{ float:right}
 .zp_item li:hover a{ color:#e0760f}
 
 .zp3{ margin-top:20px; border:1px solid #e0760f; padding:13px; border-radius:8px;}
 .zp3 h3{ overflow:hidden; background:url(../images/9581.png) center bottom no-repeat; margin-bottom:10px;}
-.zp3 h3 span{ font:18px/32px Microsoft Yahei; float:left; color:#e0760f}
-.zp3 h3 a{ font:16px/32px Microsoft Yahei; color:#e0760f; float:right}
+.zp3 h3 span{ font-size:18px;line-height: 32px; float:left; color:#d1ae5e}
+.zp3 h3 a{ font-size:16px;line-height: 32px; color:#d1ae5e; float:right}
 .zp3 table{ width:100%; border-collapse:collapse;}
-.zp3 table th{ font:16px/32px Microsoft Yahei; color:#404040; padding-bottom:15px}
-.zp3 table td{ font:14px/30px Microsoft Yahei; color:#404040; text-align:center; padding-bottom:0}
-.zp3 table td a{ color:#404040}
+.zp3 table th{ font-size:16px;line-height: 32px; color:white; padding-bottom:15px}
+.zp3 table td{ font-size:14px;line-height: 30px; color:white; text-align:center; padding-bottom:0}
+.zp3 table td a{ color:white}
 .zp3 table td a:hover{color:#e0760f}
