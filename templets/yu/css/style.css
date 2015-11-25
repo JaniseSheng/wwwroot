@@ -22,6 +22,7 @@ html{
 	color: #d1ae5e;
 }
 
+
 /* Hides from IE7 - mac \*/
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
