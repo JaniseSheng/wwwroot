@@ -11,6 +11,9 @@ a{ text-decoration:none ; color:#4c4c4c;}
 html{
 	font-family: '宋体, sans-serif,Helvetica Neue',Helvetica,Arial,'Lantinghei SC','Hiragino Sans GB',STHeiti,'Noto Sans S Chinese','Microsoft Yahei','Microsoft Sans Serif','WenQuanYi Micro Hei',sans-serif !important;
 }
+body{
+	background-color: #2e333f;
+}
 .bodyBackground {
 	background-color: #2e333f;
 }
@@ -33,7 +36,7 @@ html{
 .header .search input.text{ width:127px; vertical-align:middle; height:24px; background:none; border:none; font-size:12px;line-height: 24px; outline:medium; padding-left:10px; color:#999}
 .header .search input.btn{ width:43px; height:24px; background:url(../images/43-24.jpg) left top no-repeat; border:none; vertical-align:middle}
 .header .tel{ float:right; margin-left:20px;text-align: right;}
-.header .tel h4{ font-size:22px; line-height:32px; font-weight:normal; background:url(../images/46-46.png)5px 5px no-repeat; background-size:32px;padding-top:5px; padding-left:40px;}
+.header .tel h4{color:white; font-size:22px; line-height:32px; font-weight:normal; background:url(../images/46-46.png)5px 5px no-repeat; background-size:32px;padding-top:5px; padding-left:40px;}
 .header .tel p{ font-size:19px; line-height:32px; color:#d1ae5e;}
 
 .header .tel>#fptel{color:white;}

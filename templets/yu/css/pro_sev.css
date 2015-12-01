@@ -86,7 +86,7 @@ height: 32px;
 .product_item ul li .pic {
     padding: 0;
     margin: 12px 0 24px 0;
-
+    height: 258px;
 }
 
 .product_item ul li .button{

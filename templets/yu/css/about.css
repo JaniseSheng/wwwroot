@@ -70,6 +70,7 @@
 .content span{ font-size:18px;line-height: 28px; color:#2a2a2a; text-align:center; display:block; padding:10px 0}*/
 
 .content .row_col p{
+    line-height: 1.8rem;
     width: 100%;
     color: white;
     text-align: justify;
@@ -177,7 +178,7 @@
 .focus1 ul li h4 a{
     color:#d1ae5e;
 }
-.focus1 ul li p{ font-size:14px;line-height:20px; padding-top:10px; color:white}
+.focus1 ul li p{text-align: justify;text-indent: 2em; font-size:14px;line-height:20px; padding-top:10px; color:white}
 .focus1 ul li p a{
     color:white;
 }
